@@ -1,0 +1,82 @@
+.landing-page-container {
+  height: 90vh;
+  width: 100vw;
+  background-image: url("https://res.cloudinary.com/ganeshmaganti/image/upload/v1715260278/landing_uvfiye.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.landing-page-content-card {
+  max-width: 400px;
+  margin: 20px 10px;
+}
+.landing-page-title {
+  font-size: 28px;
+  color: #343434;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.landing-page-para {
+  font-size: 13px;
+  color: #565656;
+}
+.landing-page-btn {
+  border: 1px solid #caa933;
+  background-color: transparent;
+  font-size: 13px;
+  outline: none;
+  color: #343434;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 640px) {
+  .landing-page-content-card {
+    margin: 20px;
+  }
+  .landing-page-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .landing-page-container {
+    background-image: url("https://res.cloudinary.com/ganeshmaganti/image/upload/v1715259060/landing-page_1_lnz8iu.jpg");
+    background-size: cover;
+  }
+  .landing-page-content-card {
+    max-width: 400px;
+    margin: 30px;
+  }
+  .landing-page-title {
+    font-size: 32px;
+  }
+  .landing-page-para {
+    font-size: 14px;
+    color: #565656;
+  }
+  .landing-page-btn {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .landing-page-content-card {
+    max-width: 500px;
+    margin: 150px;
+    margin-top: 100px;
+  }
+  .landing-page-title {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .landing-page-para {
+    font-size: 18px;
+    color: #565656;
+    margin-bottom: 15px;
+  }
+  .landing-page-btn {
+    font-size: 15px;
+    padding: 5px 15px 7px 15px;
+  }
+}

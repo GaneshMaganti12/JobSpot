@@ -1,0 +1,30 @@
+.notification-bar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.notification-bar .notify-bar {
+  top: 14%;
+}
+.notification-bar .notify-alert {
+  width: 320px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-bar .notify-alert {
+    width: 500px;
+    font-size: 12px;
+    padding: 0px 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .notification-bar .notify-alert {
+    font-size: 13px;
+    padding: 0px 18px;
+  }
+}

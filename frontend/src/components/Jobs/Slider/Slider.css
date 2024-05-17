@@ -1,0 +1,34 @@
+.slider-card {
+  position: relative;
+  width: 100%;
+}
+.slider-items {
+  display: flex;
+  gap: 20px;
+  overflow-y: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 0px 20px;
+}
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  color: #0d0d0d;
+  display: none;
+  opacity: 60%;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .arrow-button {
+    display: block;
+  }
+}

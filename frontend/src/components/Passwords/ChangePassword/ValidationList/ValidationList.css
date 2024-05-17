@@ -1,0 +1,54 @@
+.valid-card {
+  margin-bottom: 5px;
+}
+.valid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.valid p {
+  font-size: 11px;
+  margin-left: 3px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.circle-icon {
+  font-size: 8px;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .valid-card {
+    margin-bottom: 7px;
+    margin-top: 5px;
+  }
+  .valid {
+    margin-bottom: 8px;
+  }
+  .valid p {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .circle-icon {
+    font-size: 9px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .valid-card {
+    margin-bottom: 8px;
+  }
+  .valid {
+    margin-bottom: 9px;
+  }
+  .valid p {
+    font-size: 13px;
+    margin-left: 6px;
+  }
+  .circle-icon {
+    font-size: 10px;
+    margin-right: 6px;
+  }
+}

@@ -1,0 +1,46 @@
+.tooltip-container {
+  width: 180px;
+  padding: 6px;
+}
+.tooltip-text {
+  font-size: 11px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.tooltip-items-card {
+  padding-left: 10px;
+}
+.tooltip-item {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .tooltip-container {
+    width: 220px;
+    padding: 8px;
+  }
+  .tooltip-text {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  .tooltip-items-card {
+    padding-left: 12px;
+  }
+  .tooltip-item {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tooltip-container {
+    width: 260px;
+    padding: 10px;
+  }
+  .tooltip-text {
+    font-size: 13px;
+  }
+  .tooltip-item {
+    font-size: 12px;
+  }
+}
