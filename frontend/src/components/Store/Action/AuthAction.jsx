@@ -125,9 +125,7 @@ export const dispatchChange = (newData, options) => {
           }
         });
     } catch (error) {
-      if (error.response.status === 404) {
-        dispatch(changePasswordFailed(error.response.data.message));
-      }
+      dispatch(changePasswordFailed(error.response.data.message));
     }
   };
 };

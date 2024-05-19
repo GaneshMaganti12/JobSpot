@@ -69,7 +69,7 @@ function Header() {
     <header>
       <nav className="header-container">
         <img
-          onClick={() => navigate("/home")}
+          onClick={() => navigate("/")}
           className="logo-icon"
           src="https://res.cloudinary.com/ganeshmaganti/image/upload/v1709374952/New_Project_8_najqjs.png"
           alt="job spot logo"
@@ -159,23 +159,25 @@ function Header() {
           </div>
         )}
       </nav>
-      <ul
-        className="navbar-menu-container"
-        style={{ transform: isOpen && "translateY(0)" }}
-      >
-        <li onClick={() => navigate("/activity")} className="navbar-menu-items">
-          Activity
-        </li>
-        <li
-          onClick={() => navigate("/change-password")}
-          className="navbar-menu-items"
-        >
-          Change Password
-        </li>
-        <li onClick={handleLogout} className="navbar-menu-items">
-          Logout
-        </li>
-      </ul>
+      {isOpen && (
+        <ul className="navbar-menu-container" ref={dropdownRef}>
+          <li
+            onClick={() => navigate("/activity")}
+            className="navbar-menu-items"
+          >
+            Activity
+          </li>
+          <li
+            onClick={() => navigate("/change-password")}
+            className="navbar-menu-items"
+          >
+            Change Password
+          </li>
+          <li onClick={handleLogout} className="navbar-menu-items">
+            Logout
+          </li>
+        </ul>
+      )}
     </header>
   );
 }

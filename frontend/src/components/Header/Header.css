@@ -6,8 +6,6 @@
   padding: 0px 14px;
   height: 10vh;
   width: 100vw;
-  position: sticky;
-  z-index: 7;
 }
 .logo-icon {
   height: 45px;
@@ -90,10 +88,7 @@
   list-style-type: none;
   background-color: #343434;
   width: 100%;
-  z-index: 1;
-  top: 60px;
-  transform: translateY(-170px);
-  transition: transform 0.4s ease;
+  z-index: 5;
 }
 .navbar-menu-items {
   color: #dedede;

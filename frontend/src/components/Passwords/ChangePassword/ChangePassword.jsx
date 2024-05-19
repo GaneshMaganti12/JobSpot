@@ -88,8 +88,8 @@ function ChangePassword() {
       values.newPassword = "";
       values.confirmPassword = "";
 
-      setShowPassword(!showPassword);
-      setIsChecked(!isChecked);
+      setShowPassword(false);
+      setIsChecked(false);
     },
   });
 
@@ -214,7 +214,7 @@ function ChangePassword() {
               <div className="show-password-card">
                 <input
                   type="checkbox"
-                  checked={isChecked}
+                  checked={isChecked ? true : false}
                   onChange={() => {
                     setShowPassword(!showPassword);
                     setIsChecked(!isChecked);

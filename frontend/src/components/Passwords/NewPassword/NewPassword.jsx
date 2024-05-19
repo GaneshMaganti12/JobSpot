@@ -156,7 +156,7 @@ function NewPassword() {
                 <div className="show-password-card">
                   <input
                     type="checkbox"
-                    checked={isChecked}
+                    checked={isChecked ? true : false}
                     onChange={() => {
                       setShowPassword(!showPassword);
                       setIsChecked(!isChecked);
